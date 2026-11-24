@@ -701,7 +701,7 @@ LEADS = [
          src="Horizon Geopolitics  •  WSJ  •  Cutthroat News",
          scene=scene_lead2),
     dict(num=3, kick="WAR  •  UKRAINE SPILLS OVER",
-         head="UKRAINE WAR SPILLS INTO LIBYA AS NATO SENDS AWACS",
+         head="UKRAINE WAR SPILLS INTO LIBYA, NATO REACTS",
          body=("Tripoli demanded answers from Kyiv after a Ukrainian sea-drone strike on "
                "a Russian warship at Benghazi, Libya — the Merkury corvette was "
                "reported sunk. Zaporizhzhia was hit again overnight: at least 2 dead, "
@@ -811,8 +811,8 @@ STATS = [
     ("NAT GAS", "+12.00%", "$3.57"),
 ]
 
-TALLY = [("N. AMERICA", 8), ("EUROPE", 9), ("MIDDLE EAST", 6), ("ASIA", 9),
-         ("AFRICA", 6), ("S. AMERICA", 3), ("OCEANIA", 2)]
+TALLY = [("N. AMERICA", 9), ("EUROPE", 7), ("MIDDLE EAST", 5), ("ASIA", 8),
+         ("AFRICA", 5), ("S. AMERICA", 2), ("OCEANIA", 2)]
 
 DATE_CHECK = [
     "COP31 in Antalya COLLAPSED on Sunday 22 Nov — no mention of “fossil fuels”; 90+ nations rejected the draft. (CNN)",
@@ -906,7 +906,7 @@ def build():
     d.text((14, 636), "WHERE IT HAPPENED — 13 STORY SITES, NUMBERED",
            font=font("sans_b", 12), fill=BLUE)
     draw_map(d, 14, 650, 648, 158)
-    fidx = font("sans", 9)
+    fidx = font("sans_b", 9)
     idx1 = "1 Washington  •  2 Hormuz  •  3 Kyiv  •  4 Benghazi  •  5 Singapore  •  " \
            "6 Hodeida  •  7 Koshi, Nepal"
     idx2 = "8 Canberra  •  9 Seoul  •  10 London  •  11 Brussels  •  12 Borno  •  " \
